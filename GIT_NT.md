@@ -67,5 +67,10 @@
 * `git checkout <branch_name>` : 브랜치 이동
   * `git checkout haley` : haley 라는 브랜치로 이동
   * 없는 브랜치 명으로 이동 할 수 없음
-  * 
+
+<br>
+
+## Merge
+
+* `git merge haley` : (현재 브랜치 master 인 상태에서) haley 브랜치를 master 브랜치로 머지(합병) 함
 
