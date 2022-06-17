@@ -56,5 +56,16 @@
 * 로컬에서 파일이 삭제 되었던지 등등의 이유로 깃허브에서 로컬로 파일들을 가져 올 때 사용
 * `git pull origin master` : 기 연결된 레포지토리의 모든 파일들을 다운 받는다.
 
+<br>
 
+## Branch
+
+* `git branch` : 브랜치의 종류, 어느 브랜치인지 확인하기
+* `git branch <branch_name>` : 브랜치 생성
+  * `git  baranch haley` : haley 라는 브랜치 생성
+  * 이미 있는 브랜치 명을 작성 했을땐 에러 발생
+* `git checkout <branch_name>` : 브랜치 이동
+  * `git checkout haley` : haley 라는 브랜치로 이동
+  * 없는 브랜치 명으로 이동 할 수 없음
+  * 
 
